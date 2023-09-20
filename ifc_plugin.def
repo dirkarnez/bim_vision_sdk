@@ -1,0 +1,17 @@
+LIBRARY
+EXPORTS
+; Functions exported for all plugins
+;Po dodaniu deklaracji do pliku .def w SDK należy dodać odpowiednią definicje dla pliku "dllmain.cpp" w "http://tfs:8081/svn_db/bim_vision_sdk/examples/template visual_studio_2012/ifc_plugin_example/"
+get_api_verion
+get_plugin_info
+get_plugin_key
+on_plugin_load
+on_call_limit
+on_plugin_unload
+on_gui_colors_change
+on_drag_enter
+on_drag_over
+on_drop
+on_model_load_v2
+on_model_save_v2
+on_undo_redo_action
